@@ -1,7 +1,6 @@
 import "../homecomponents/nav.scss";
 import { Link, Outlet } from "react-router-dom";
 
-
 const Nav = () => {
   return (
     <>
