@@ -4,7 +4,7 @@ $common-white: rgb(255, 255, 255);
   height: 150px;
   border: 1px solid black;
   background-color: $backcolor;
-
+  position: sticky;
   gap: 50px;
 }
 
