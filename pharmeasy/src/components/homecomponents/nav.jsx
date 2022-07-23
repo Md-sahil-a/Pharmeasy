@@ -1,16 +1,21 @@
 import "../homecomponents/nav.scss";
 import { Link, Outlet } from "react-router-dom";
+import { UserContext } from "../context/userContext";
+import {useContext} from 'react'
+import { signOutUser } from "../firebase_utitls/firebase_auth";
 
 const Nav = () => {
+  const { currentUser } = useContext(UserContext);
   return (
     <>
     <div className="Navbar">
       <div className="logocontainer">
-        <img
+       <a href="./"><img
           alt="logo"
           className="logo"
           src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png"
         />
+        </a>
         <div id="search">
           <input
             type="text"
@@ -33,7 +38,13 @@ const Nav = () => {
           <Link to="/shop" className="nav-link">
             Shop
           </Link>
-            <Link to="/sign-in" className="nav-link">Sign-in</Link>
+          {currentUser ? (
+            <span className="nav-link" onClick={signOutUser}>
+              Signout
+            </span>
+          ) : (
+            <Link to="/sign-in">Sign-in</Link>
+          )}
             <Link to="/"> cart<i class="fa-solid fa-cart-shopping"></i> </Link>
         </div>
       </div>
