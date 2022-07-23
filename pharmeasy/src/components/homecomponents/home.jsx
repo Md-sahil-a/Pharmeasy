@@ -1,7 +1,9 @@
-
+import CarouselFadeExample from "./scroller";
 const Home = ()=>{
     return(
-        <h1>This is my home</h1>
+        <>
+           <CarouselFadeExample/>
+        </>
     )
 }
 

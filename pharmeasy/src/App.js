@@ -1,4 +1,5 @@
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Nav from './components/homecomponents/nav';
 import Home from './components/homecomponents/home';
 import Sign from './components/auth/complete-auth';

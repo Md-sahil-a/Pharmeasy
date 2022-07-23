@@ -17,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 a{
-  color:$common-white;
+  color: $common-white !important ;
   text-decoration: none;
 }
 a:hover{
