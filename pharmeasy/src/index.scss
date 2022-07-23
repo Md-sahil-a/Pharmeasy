@@ -1,3 +1,5 @@
+$common-white: rgb(255, 255, 255);
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -15,7 +17,7 @@ code {
   box-sizing: border-box;
 }
 a{
-  color:antiquewhite;
+  color:$common-white;
   text-decoration: none;
 }
 a:hover{

@@ -1,4 +1,5 @@
 $backcolor: #10847e;
+$common-white: rgb(255, 255, 255);
 .Navbar {
   height: 150px;
   border: 1px solid black;
@@ -71,7 +72,7 @@ $backcolor: #10847e;
     .nav-link {
       padding: 10px 15px;
       cursor: pointer;
-      color: rgb(255, 255, 255);
+      color: $common-white;
     }
   }
 }
