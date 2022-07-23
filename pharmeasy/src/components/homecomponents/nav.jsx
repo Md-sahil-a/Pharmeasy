@@ -1,8 +1,9 @@
 import "../homecomponents/nav.scss";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 const Nav = () => {
   return (
+    <>
     <div className="Navbar">
       <div className="logocontainer">
         <img
@@ -23,7 +24,10 @@ const Nav = () => {
        
 
       </div>
+
     </div>
+    <Outlet/>
+    </>
   );
 };
 
