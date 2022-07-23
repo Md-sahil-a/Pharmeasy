@@ -9,7 +9,6 @@ function App() {
       <Route path='/' element= {<Nav/>}>
         <Route index element={<Home/>} />
       </Route>
-      
     </Routes>
     
     </>
