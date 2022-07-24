@@ -18,11 +18,10 @@ const Nav = () => {
         </a>
         <div id="search">
           <input
-            type="text"
+            type="search"
             id="search_bar"
             placeholder="search medicines/Healthcare products"
           />
-          <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
         </div>
       </div>
       <div className="navigation">
@@ -30,14 +29,11 @@ const Nav = () => {
         
         </>
         <div className="nav-links-container">
-        <Link  to="/">
+        <Link  to="/order">
         order medicines
         </Link>
-        <Link to="/home">Healthcare products</Link>
-        <Link to="/home">Lab tests</Link>
-          <Link to="/shop" className="nav-link">
-            Shop
-          </Link>
+        <Link to="/order">Healthcare products</Link>
+        <Link to="/lab">Lab tests</Link>
           {currentUser ? (
             <span className="nav-link" onClick={signOutUser}>
               Signout

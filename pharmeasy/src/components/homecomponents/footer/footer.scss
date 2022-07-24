@@ -1,0 +1,159 @@
+footer {
+    width: 100%;
+    padding-bottom: 8rem;
+    background-color: var(--secondaryColor);
+}
+
+section,
+hr {
+    width: 75%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+section {
+    font-size: 1.5rem;
+}
+
+hr {
+    margin-top: 1rem;
+    color: #eeeeee;
+}
+
+footer h4 {
+    text-transform: uppercase;
+    color: #505050;
+}
+
+footer>#section_1 {
+    padding: 5rem 0 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_1>#left {
+    width: 65%;
+    color: #868585;
+    font-weight: 100;
+    text-transform: capitalize;
+    line-height: 2.7rem;
+    display: flex;
+}
+
+#left>* {
+    flex: 1;
+}
+
+#left #latest {
+    color: rgb(24, 20, 20);
+    background-color: #ed3833;
+    margin-left: 0.5rem;
+    padding: 1px 1rem;
+    font-size: 1.2rem;
+    border-radius: 10px;
+}
+
+#left>div:nth-child(3) {
+    flex: 1.5;
+}
+
+#section_1 #social_connect {
+    margin-top: 2rem;
+}
+
+#social_connect+div {
+    font-size: 2.5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+
+#section_1 h4 {
+    margin-bottom: 2rem;
+}
+
+#section_1 img {
+    height: 42px;
+}
+
+#section_1>#right {
+    width: 30%;
+}
+
+#right>div {
+    display: flex;
+    gap: 2rem;
+}
+
+#right>div:nth-child(2) {
+    margin-top: 3rem;
+}
+
+#right img {
+    display: inline-block;
+    width: 48px;
+    height: 40px;
+    margin-top: 2px;
+}
+
+#right span {
+    font-weight: 700;
+}
+
+#section_2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#section_2>div {
+    width: 85%;
+    background-color: #aaa;
+}
+
+#section_3 {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+#section_3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: #636363;
+    padding-right: 1rem;
+    margin: 4px;
+    border-right: 1px solid #aaa;
+    text-transform: capitalize;
+}
+
+#section_4 {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+#section_4 a {
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+#section1 {
+    background-color: rgb(250, 251, 252);
+}
+
+:root {
+    font-size: 62.5%;
+    --primaryFont: "DM Sans", sans-serif;
+    --charSpace: 6px;
+    --primaryColor: #3e4152;
+    --secondaryColor: #fafbfc;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+    gap: 3rem;
+}
+
+
+

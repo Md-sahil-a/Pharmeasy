@@ -29,8 +29,8 @@ $common-white: rgb(255, 255, 255);
 
 #search > #search_bar {
   display: inline-block;
-  width: 82%;
-  height: 18px;
+  width: 80%;
+  height: 48px;
   line-height: 24px;
   padding: 1.5rem;
   padding-left: 5rem;
@@ -50,7 +50,7 @@ $common-white: rgb(255, 255, 255);
 
 #search #search_icon {
   position: absolute;
-  left: 58rem;
+  left: 95rem;
 }
 
 .navigation {
@@ -73,6 +73,7 @@ $common-white: rgb(255, 255, 255);
       padding: 10px 15px;
       cursor: pointer;
       color: $common-white;
+      font-size: large;
     }
   }
 }
