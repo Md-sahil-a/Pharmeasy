@@ -84,13 +84,14 @@ const Bottom = () => {
           {ProductData.map((n) => {
             return (
               <>
-                <div className="img-container">
+               <a href="/order"> <div className="img-container">
                   <div className="title">
                     <h1>{n.title}</h1>
                   </div>
                   <button className="btn">{n.bt}</button>
                   <img src={n.imgurl} />
                 </div>
+                </a>
               </>
             );
           })}

@@ -1,0 +1,59 @@
+{
+  "posts": [
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/I09432/neurobion-forte-tablet-30s-2-1656661904.jpg",
+      "title": "neurobion",
+      "price": "$123"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/000591/abzorb-antifungal-dusting-powder-100gm-2-1656944432.jpg",
+      "title": "abzorb-antifungal",
+      "price": "$32"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/I00596/revital-h-women-multivitamin-with-calcium-zinc-ginseng-for-immunity-strong-bones-energy-30-tablets-1-1654168794.jpg",
+      "title": "revital-h-women",
+      "price": "$43"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/183157/volini-pain-relief-gel-tube-of-75-g-1-1654078754.jpg",
+      "title": "volini",
+      "price": "$32"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/105920/himalaya-liv52-tablets-100s-2-1654078567.jpg",
+      "title": "himaly liv 52",
+      "price": "$43"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/164721/sugar-free-gold-sweetener-tablets-strip-of-500-2-1654078766.jpg",
+      "title": "gold sweetner",
+      "price": "$65"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/227623/sevenseas-original-capsule-100s-2-1656662108.jpg",
+      "title": "sevenseas capsule",
+      "price": "$78"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/I41645/baidyanath-chyawanprash-special-immunity-omniprotection-52-ayurvedic-ingredients-950g-2-1654165857.jpg",
+      "title": "chyawanprakash",
+      "price": "$67"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/D92359/everherb-by-pharmeasy-amla-juice-rich-in-vitamin-c-natural-immunity-booster-1-litre-bottle-2-1654169607.jpg",
+      "title": "amla juice",
+      "price": "$87"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/W14725/ensure-diabetes-care-vanilla-powder-refill-1-kg-2-1654233151.jpg",
+      "title": "vanilla powder",
+      "price": "$87"
+    },
+    {
+      "imgurl": "https://cdn01.pharmeasy.in/dam/products_otc/E23897/bagrrys-total-bran-wheat-flakes-no-added-sugar-500-gms-box-2-1645785803.jpg",
+      "title": " wheat flakes",
+      "price": "$90"
+    }
+  ]
+}
