@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import Footer from "../homecomponents/footer/footer";
 const Order = () => {
  const [name, setName] = useState([]);
  useEffect(() => {
