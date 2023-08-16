@@ -1,9 +1,8 @@
 # Output
 
 
-This is an individual project, a clone of  website PharmEasy, 
 
-PharmEasy is an Indian e-pharmacy company that sells medicines, diagnostics and telehealth online..
+💊 PharmEasy Website UI: Immerse yourself in the sleek and intuitive UI design of our PharmEasy-inspired website. Seamlessly navigating the world of pharmaceuticals and healthcare, our UI ensures easy , medicine orders, and health product searches. Emphasizing user-friendliness, our design optimizes the shopping experience and promotes well-being. Experience the future of healthcare UI today. Your health, simplified. 🏥💻🌿
 
 ![Screenshot from 2022-07-24 10-39-15](https://user-images.githubusercontent.com/77974484/180634791-8825942f-ebc3-44b6-aad6-95eb71c44dca.png)
 
